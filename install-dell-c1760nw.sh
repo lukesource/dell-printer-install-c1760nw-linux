@@ -18,7 +18,7 @@
 
 set -euo pipefail
 
-PRINTER_IP="${1:-192.168.4.30}"
+PRINTER_IP="${1:-192.168.1.100}"
 PRINTER_NAME="DellC1760nw"
 PRINTER_URI="socket://${PRINTER_IP}:9100"
 PRINTER_INFO="Dell C1760nw Color Laser"

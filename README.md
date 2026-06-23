@@ -22,8 +22,7 @@ The correct driver is `foo2hbpl1` from the [mikerr/foo2zjs](https://github.com/m
 ```bash
 git clone https://github.com/lukesource/dell-printer-install-c1760nw-linux.git
 cd dell-printer-install-c1760nw-linux
-sudo ./install-dell-c1760nw.sh                # uses default IP 192.168.4.30
-sudo ./install-dell-c1760nw.sh 192.168.1.50   # or specify your printer's IP
+sudo ./install-dell-c1760nw.sh 192.168.1.100   # specify your printer's IP
 ```
 
 The script will:
